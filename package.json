@@ -4,13 +4,16 @@
   "description": "D8ta booking application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "echo 'Build command not yet configured'",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo 'Test command not yet configured'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
